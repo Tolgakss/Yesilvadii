@@ -1,0 +1,99 @@
+/* Genel stil ayarları */
+        body {
+			font-family: Times New Roman, sans-serif;/*yazı türü */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+			
+        }
+
+        .header {
+		 background-color: #333;
+            display: flex;
+			color: white;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+           
+        }
+
+        .header .logo {  /*header ın içindeki logo sınıfını seçmek için kullanılır*/
+            flex: 1;/*sayfa büyüyüp küçüldüğü zaman duruma göre büyüyüp yerini değiştirmesi*/
+        }
+
+        .header .logo img {/*img nin özelliklerini belirtiyor*/
+		height: 60px;
+		height: 80px; /* Resmin yüksekliği */
+		max-width: 70px; /* Resmin maksimum genişliği */
+		left: 0;
+        }
+
+        .header .restoran-ismi {
+            flex: 1;
+            text-align: right;
+            font-size:60px;
+            font-weight: bold;
+			letter-spacing: 1Spx;
+        }
+
+        .nav {
+            text-align: center;
+           background-color: #333;
+            padding: 10px 0;
+        }
+
+        .nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+footer {
+  text-align: center; /*ortalar*/
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  position: fixed; /*sayfa harekti esnasında yerinde kalmasını sağlıyor*/
+  width: 100%;
+  bottom: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 28px;
+}
+
+h3 {
+  color: #333;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* kenar ovalliğini ayarlamak için kullanılır*/ 
+}
+
+section {
+  margin-bottom: 30px;/*aşağıdan boşluk bırakmak için 30px mesafe bırakmak icin kullandım*/
+
+}
